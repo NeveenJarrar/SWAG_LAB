@@ -1,5 +1,5 @@
 # SWAG_LAB
-*This repository contains automated test cases for the SWAG_LAB application. The tests are implemented using Java, Selenium WebDriver, and TestNG framework.
+This repository contains automated test cases for the SWAG_LAB application. The tests are implemented using Java, Selenium WebDriver, and TestNG framework.
 
 ## Before running the test cases, ensure that you have the following set up:
 1. Java Development Kit (JDK) installed.

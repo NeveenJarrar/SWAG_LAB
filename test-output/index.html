@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\YAS8181626\AppData\Local\Temp\testng-eclipse--213533037\testng-customsuite.xml</span>
+                    <span>C:\Users\YAS8181626\AppData\Local\Temp\testng-eclipse--1028955993\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="SwagLab" class="method navigator-link" hash-for-method="Add_all_items_to_cart">Add_all_items_to_cart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="SWAG_LAB" class="method navigator-link" hash-for-method="Add_all_items_to_cart">Add_all_items_to_cart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="SwagLab" class="method navigator-link" hash-for-method="Remove_all_items_from_cart">Remove_all_items_from_cart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="SWAG_LAB" class="method navigator-link" hash-for-method="Remove_all_items_from_cart">Remove_all_items_from_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="SWAG_LAB" class="method navigator-link" hash-for-method="ordering_of_items">ordering_of_items</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,7 +132,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SwagLab</span>
+              <span class="class-name">SWAG_LAB</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -144,12 +149,19 @@
                   <span class="method-name">Remove_all_items_from_cart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ordering_of_items">
+                  </a> <!-- ordering_of_items -->
+                  <span class="method-name">ordering_of_items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\YAS8181626\AppData\Local\Temp\testng-eclipse--213533037\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\YAS8181626\AppData\Local\Temp\testng-eclipse--1028955993\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SwagLab&quot;/&gt;
+      &lt;class name=&quot;SWAG_LAB&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Add_all_items_to_cart')
-data.setCell(0, 2, 'SwagLab')
-data.setCell(0, 3, 288);
+data.setCell(0, 1, 'ordering_of_items')
+data.setCell(0, 2, 'SWAG_LAB')
+data.setCell(0, 3, 6175);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Remove_all_items_from_cart')
-data.setCell(1, 2, 'SwagLab')
-data.setCell(1, 3, 207);
+data.setCell(1, 1, 'Add_all_items_to_cart')
+data.setCell(1, 2, 'SWAG_LAB')
+data.setCell(1, 3, 264);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Remove_all_items_from_cart')
+data.setCell(2, 2, 'SWAG_LAB')
+data.setCell(2, 3, 218);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 495 ms</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,22 +253,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SwagLab</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">SWAG_LAB</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">Sign_in</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Add_all_items_to_cart</span>
-                <span class="method-start">1707 ms</span>
+                <span class="method-start">5817 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Remove_all_items_from_cart</span>
-                <span class="method-start">1997 ms</span>
+                <span class="method-start">6084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ordering_of_items</span>
+                <span class="method-start">6302 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">AterTesting</span>
-                <span class="method-start">2207 ms</span>
+                <span class="method-start">12480 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

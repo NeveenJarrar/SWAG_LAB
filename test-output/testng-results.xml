@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-04T13:52:35 EET" name="Default suite" finished-at="2023-05-04T13:52:37 EET" duration-ms="2217">
+  <suite started-at="2023-05-18T16:34:13 EET" name="Default suite" finished-at="2023-05-18T16:34:25 EET" duration-ms="12487">
     <groups>
     </groups>
-    <test started-at="2023-05-04T13:52:35 EET" name="Default test" finished-at="2023-05-04T13:52:37 EET" duration-ms="2217">
-      <class name="SwagLab">
-        <test-method is-config="true" signature="Sign_in()[pri:0, instance:SwagLab@77bb0ab5]" started-at="2023-05-04T13:52:35 EET" name="Sign_in" finished-at="2023-05-04T13:52:37 EET" duration-ms="1679" status="PASS">
+    <test started-at="2023-05-18T16:34:13 EET" name="Default test" finished-at="2023-05-18T16:34:25 EET" duration-ms="12487">
+      <class name="SWAG_LAB">
+        <test-method is-config="true" signature="Sign_in()[pri:0, instance:SWAG_LAB@f2c488]" started-at="2023-05-18T16:34:13 EET" name="Sign_in" finished-at="2023-05-18T16:34:18 EET" duration-ms="5794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sign_in -->
-        <test-method signature="Add_all_items_to_cart()[pri:0, instance:SwagLab@77bb0ab5]" started-at="2023-05-04T13:52:37 EET" name="Add_all_items_to_cart" finished-at="2023-05-04T13:52:37 EET" duration-ms="288" status="PASS">
+        <test-method signature="Add_all_items_to_cart()[pri:0, instance:SWAG_LAB@f2c488]" started-at="2023-05-18T16:34:18 EET" name="Add_all_items_to_cart" finished-at="2023-05-18T16:34:19 EET" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add_all_items_to_cart -->
-        <test-method signature="Remove_all_items_from_cart()[pri:0, instance:SwagLab@77bb0ab5]" started-at="2023-05-04T13:52:37 EET" name="Remove_all_items_from_cart" finished-at="2023-05-04T13:52:37 EET" duration-ms="207" status="PASS">
+        <test-method signature="Remove_all_items_from_cart()[pri:0, instance:SWAG_LAB@f2c488]" started-at="2023-05-18T16:34:19 EET" name="Remove_all_items_from_cart" finished-at="2023-05-18T16:34:19 EET" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Remove_all_items_from_cart -->
-        <test-method is-config="true" signature="AterTesting()[pri:0, instance:SwagLab@77bb0ab5]" started-at="2023-05-04T13:52:37 EET" name="AterTesting" finished-at="2023-05-04T13:52:37 EET" duration-ms="0" status="PASS">
+        <test-method signature="ordering_of_items()[pri:0, instance:SWAG_LAB@f2c488]" started-at="2023-05-18T16:34:19 EET" name="ordering_of_items" finished-at="2023-05-18T16:34:25 EET" duration-ms="6175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordering_of_items -->
+        <test-method is-config="true" signature="AterTesting()[pri:0, instance:SWAG_LAB@f2c488]" started-at="2023-05-18T16:34:25 EET" name="AterTesting" finished-at="2023-05-18T16:34:25 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AterTesting -->
-      </class> <!-- SwagLab -->
+      </class> <!-- SWAG_LAB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

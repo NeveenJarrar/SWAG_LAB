@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Ordering_of_items">
+      <class name="SWAG_LAB">
         <methods>
-          <include name="ordering_of_items"/>
-          <include name="AterTesting"/>
           <include name="Sign_in"/>
+          <include name="ordering_of_items"/>
+          <include name="Remove_all_items_from_cart"/>
+          <include name="AterTesting"/>
+          <include name="Add_all_items_to_cart"/>
         </methods>
-      </class> <!-- Ordering_of_items -->
+      </class> <!-- SWAG_LAB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
